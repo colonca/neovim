@@ -19,6 +19,9 @@ require('packer').startup(function()
    -- Git
    use 'tpope/vim-fugitive'
 
+   --vim test
+   use 'vim-test/vim-test' 
+
    --sintax highligthing
    use {
         'nvim-treesitter/nvim-treesitter',
@@ -37,7 +40,7 @@ require('packer').startup(function()
      requires = {'kyazdani42/nvim-web-devicons'}
    }
 
-   --Color Scheme
+   --ColorSchema
    use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
 
 end)
