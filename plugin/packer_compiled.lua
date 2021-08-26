@@ -116,6 +116,10 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/camilo/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/camilo/.local/share/nvim/site/pack/packer/start/vim-fugitive"
   }
 }
 
