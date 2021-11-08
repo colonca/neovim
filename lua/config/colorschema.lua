@@ -3,13 +3,14 @@ local cmd = vim.cmd
 
 utils.opt('o', 'termguicolors', true)
 utils.opt('o', 'background', 'dark')
-cmd [[colorscheme gruvbox]]
+--cmd[[colorscheme onedark]]
+require('themes.tokyonight')
 
 --Transparency
---highlight Normal ctermbg=NONE guibg=NONE
+cmd "highlight Normal ctermbg=NONE guibg=NONE"
 -- highlight EndOfBuffer ctermbg=NONE guibg=NONE
 
-cmd "highlight ColorColumn ctermbg=0 guibg=grey"
+--cmd "highlight ColorColumn ctermbg=0 guibg=grey"
 --highlight Normal guibg=none
 -- highlight LineNr guifg=#ff8659
 -- highlight LineNr guifg=#aed75f

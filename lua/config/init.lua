@@ -7,3 +7,6 @@ require('config.statusline')
 -- completion
 require('config.nvim-compe')
 
+--vim test
+require('config.vim-test')
+

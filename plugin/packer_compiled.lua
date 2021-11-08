@@ -73,6 +73,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/camilo/.local/share/nvim/site/pack/packer/start/barbar.nvim"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/home/camilo/.local/share/nvim/site/pack/packer/start/emmet-vim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/camilo/.local/share/nvim/site/pack/packer/start/gruvbox.nvim"
@@ -105,6 +109,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/camilo/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/home/camilo/.local/share/nvim/site/pack/packer/start/onedark.nvim"
+  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/camilo/.local/share/nvim/site/pack/packer/start/plenary.nvim"
@@ -117,9 +125,33 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/camilo/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/camilo/.local/share/nvim/site/pack/packer/start/tokyonight.nvim"
+  },
+  ["vim-blade"] = {
+    loaded = true,
+    path = "/home/camilo/.local/share/nvim/site/pack/packer/start/vim-blade"
+  },
+  ["vim-composer"] = {
+    loaded = true,
+    path = "/home/camilo/.local/share/nvim/site/pack/packer/start/vim-composer"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/camilo/.local/share/nvim/site/pack/packer/start/vim-fugitive"
+  },
+  ["vim-laravel"] = {
+    loaded = true,
+    path = "/home/camilo/.local/share/nvim/site/pack/packer/start/vim-laravel"
+  },
+  ["vim-projectionist"] = {
+    loaded = true,
+    path = "/home/camilo/.local/share/nvim/site/pack/packer/start/vim-projectionist"
+  },
+  ["vim-test"] = {
+    loaded = true,
+    path = "/home/camilo/.local/share/nvim/site/pack/packer/start/vim-test"
   }
 }
 
