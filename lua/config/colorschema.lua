@@ -3,8 +3,8 @@ local cmd = vim.cmd
 
 utils.opt('o', 'termguicolors', true)
 utils.opt('o', 'background', 'dark')
---cmd[[colorscheme onedark]]
-require('themes.tokyonight')
+cmd[[colorscheme gruvbox]]
+--require('themes.tokyonight')
 
 --Transparency
 cmd "highlight Normal ctermbg=NONE guibg=NONE"

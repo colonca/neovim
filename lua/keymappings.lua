@@ -18,6 +18,12 @@ utils.map('n','<C-j>','<C-w>j',{silent = false})
 utils.map('n','<C-k>','<C-w>k',{silent = false})
 utils.map('n','<C-l>','<C-w>l',{silent = false})
 
+--Use alt + hjkl to resize windows
+utils.map('n','<M-j>',':resize -2<CR>',opts);
+utils.map('n','<M-k>',':resize +2<CR>',opts);
+utils.map('n','<M-h>',':vertical resize -2<CR>',opts);
+utils.map('n','<M-l>',':vertical resize +2<CR>',opts);
+
 -- Alternate way to save
 utils.map('n','<C-s>',':w<CR>',opts)
 -- Alternate way to quit and save
@@ -50,3 +56,5 @@ utils.map('n','<Leader>ff',':Telescope find_files<CR>',opts)
 utils.map('n','<Leader>fg',':Telescope live_grep<CR>',opts)
 utils.map('n','<Leader>fb',':Telescope buffers<CR>',opts)
 utils.map('n','<Leader>fb',':Telescope help_tags<CR>',opts)
+
+utils.map('n','<Leader>pa',':lua require(\'config.telescope\').laravel_artisan()<CR>',opts);

@@ -1,5 +1,8 @@
 local utils = require('utils')
 
+vim.cmd "filetype plugin on"
+vim.cmd "syntax on"
+
 utils.opt('b', 'expandtab', true)
 utils.opt('o', 'autowrite',true)
 utils.opt('o', 'clipboard','unnamed,unnamedplus')

@@ -10,3 +10,5 @@ require('config.nvim-compe')
 --vim test
 require('config.vim-test')
 
+--ident line
+require('config.identblackline')
