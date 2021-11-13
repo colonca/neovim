@@ -54,6 +54,7 @@ require('packer').startup(function()
    use 'tpope/vim-fugitive'
    --vim test
    use 'vim-test/vim-test' 
+
    --laravel
    use {
         'noahfrederick/vim-laravel',

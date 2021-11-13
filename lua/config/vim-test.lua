@@ -9,4 +9,4 @@ utils.map('n','t<C-l>',':TestLast<CR>',opts)
 utils.map('n','t<C-g>',':TestVisit<CR>',opts)
 
 
-cmd[[let g:test#php#phpunit#executable = 'docker exec pebi-app php artisan test']]
+cmd[[let g:test#php#phpunit#executable = 'docker exec app php artisan test']]
